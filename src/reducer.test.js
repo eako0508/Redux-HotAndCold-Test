@@ -97,7 +97,7 @@ describe('reducer', ()=>{
 	});
 	
 	describe('generateAuralUpdate', ()=>{
-		it('should generate aural for multiple guesses', ()=>{
+		it('should generate aural for a single guesses', ()=>{
 			const state = {
 				guesses: [51],
 				feedback: "You're Hot!",
